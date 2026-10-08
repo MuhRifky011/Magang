@@ -203,7 +203,37 @@ justify-content: space-between;
   background-color: #1E40AF;
   transform: translateY(-4px);
 }
-
+.Algoritmalanjut{
+  margin-top: 20px;
+  align-self: flex-end;
+  margin-top: auto;
+  display: inline-block;
+  padding: 8px 24px;
+  background-color: #273148;
+  color: white;
+  text-decoration: none;
+  border-radius: 40px 0px 40px 0px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.3s;
+}
+.Analoglanjut{
+  margin-top: 20px;
+  display: inline-block;
+  padding: 8px 24px;
+  background-color: #273148;
+  color: white;
+  text-decoration: none;
+  border-radius: 40px 0px 40px 0px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.3s;
+}
+.projektombol{
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
 .projek{
   min-height: 100vh;
   padding: 120px 8% 80px;
@@ -227,6 +257,8 @@ justify-content: space-between;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
   transition: 0.3s ease;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-card:hover{
@@ -251,6 +283,7 @@ hr {
 
 .kontenprojek { 
   padding: 20px;
+  flex: 1;
 }
 
 .kontenprojek h3 {
